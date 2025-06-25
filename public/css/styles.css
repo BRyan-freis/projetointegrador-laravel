@@ -2,228 +2,228 @@
 
 /* --- Configurações Globais --- */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(180deg, #070138, #41016b);
-    color: #fff;
-    line-height: 1.7;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #070138, #41016b);
+  color: #fff;
+  line-height: 1.7;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 span {
-    background: linear-gradient(180deg, #09ff00, #137506);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+  background: linear-gradient(180deg, #09ff00, #137506);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 /* --- Cabeçalho (Header) --- */
 .site-header {
-    background: rgba(7, 1, 56, 0.8);
-    padding: 15px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    backdrop-filter: blur(5px);
+  background: rgba(7, 1, 56, 0.8);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
 }
 
 .site-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    /* Permite que o menu quebre em telas menores */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* Permite que o menu quebre em telas menores */
 }
 
 .logo a {
-    font-size: 1.8em;
-    font-weight: 700;
-    color: #fff;
-    text-decoration: none;
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
 }
 
 .main-nav a {
-    color: #f0f0f0;
-    text-decoration: none;
-    margin-left: 25px;
-    font-weight: 400;
-    transition: color 0.3s ease;
+  color: #f0f0f0;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: 400;
+  transition: color 0.3s ease;
 }
 
 .main-nav a:hover {
-    color: #09ff00;
+  color: #09ff00;
 }
 
 /* --- Conteúdo Principal --- */
 .main-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 40px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .text-column {
-    flex: 1;
-    min-width: 300px;
+  flex: 1;
+  min-width: 300px;
 }
 
 .image-column {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 300px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
 }
 
 .main-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 /* --- Estilos do Conteúdo de Texto --- */
 .bemvindo h1 {
-    font-size: 3em;
-    font-weight: 700;
-    line-height: 1.2;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .forms {
-    margin-top: 40px;
-    margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .forms h3 {
-    font-size: 1.5em;
-    margin-bottom: 15px;
+  font-size: 1.5em;
+  margin-bottom: 15px;
 }
 
 .forms form {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 #email {
-    flex: 3;
-    padding: 15px;
-    border-radius: 10px;
-    border: none;
-    font-size: 1em;
-    min-width: 200px;
+  flex: 3;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  min-width: 200px;
 }
 
 .submit {
-    flex: 1;
-    padding: 15px;
-    background-color: #20db30;
-    color: #fff;
-    font-size: 1em;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  flex: 1;
+  padding: 15px;
+  background-color: #20db30;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .submit:hover {
-    background-color: #1aa825;
+  background-color: #1aa825;
 }
 
 .content h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
+  font-size: 2em;
+  margin-bottom: 15px;
 }
 
 .content p,
 .content li {
-    font-size: 1.1em;
-    margin-bottom: 15px;
+  font-size: 1.1em;
+  margin-bottom: 15px;
 }
 
 .content ul {
-    list-style: none;
+  list-style: none;
 }
 
 .content li {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 /* --- Rodapé (Footer) --- */
 .site-footer {
-    background-color: #070138;
-    color: #ccc;
-    padding: 30px 0;
-    text-align: center;
-    border-top: 1px solid #41016b;
+  background-color: #070138;
+  color: #ccc;
+  padding: 30px 0;
+  text-align: center;
+  border-top: 1px solid #41016b;
 }
 
 .footer-links {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .footer-links a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: #09ff00;
+  color: #09ff00;
 }
 
 /* --- RESPONSIVIDADE PARA MOBILE --- */
 @media (max-width: 768px) {
-    .site-header .container {
-        flex-direction: column;
-        gap: 15px;
-    }
+  .site-header .container {
+    flex-direction: column;
+    gap: 15px;
+  }
 
-    .main-nav {
-        text-align: center;
-    }
+  .main-nav {
+    text-align: center;
+  }
 
-    .main-nav a {
-        margin: 0 10px;
-    }
+  .main-nav a {
+    margin: 0 10px;
+  }
 
-    .main-content {
-        flex-direction: column-reverse;
-        padding-top: 30px;
-    }
+  .main-content {
+    flex-direction: column-reverse;
+    padding-top: 30px;
+  }
 
-    .bemvindo h1 {
-        font-size: 2.5em;
-        text-align: center;
-    }
+  .bemvindo h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
 
-    .forms h3,
-    .content h2 {
-        text-align: center;
-    }
+  .forms h3,
+  .content h2 {
+    text-align: center;
+  }
 
-    .content p,
-    .content li {
-        font-size: 1em;
-    }
+  .content p,
+  .content li {
+    font-size: 1em;
+  }
 
-    .forms form {
-        flex-direction: column;
-    }
+  .forms form {
+    flex-direction: column;
+  }
 }
 
 /* Footer */
